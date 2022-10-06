@@ -148,7 +148,8 @@ header .cover .header-text:hover{
     width: 90%;
 }
 .card{
-    max-width: 250px;
+    max-width: 300px;
+    width: 90%;
     background-color: #003566;
     border-radius: 10px;
     box-shadow: 0 0 10px #012a50;
@@ -195,7 +196,7 @@ header .cover .header-text:hover{
     transition: 0.3s;
     letter-spacing: 0.5px;
 }
-.card button:hover{
+.card button:hover, .addMovie button:hover{
     background-color: #bb0423;
     letter-spacing: 1.5px;
 }
@@ -207,6 +208,7 @@ header .cover .header-text:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin: 1rem auto;
     gap: 10px;
     background-color: #003566;
@@ -247,5 +249,8 @@ header .cover .header-text:hover{
     }
     .desktop-nav{
         display: flex;
+    }
+    .card{
+        max-width: 250px;
     }
 }
