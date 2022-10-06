@@ -223,6 +223,7 @@ header .cover .header-text:hover{
 }
 .addMovie input, .updateForm input{
     padding: 0.3rem;
+    text-align: center;
 }
 .addMovie button, .updateForm button{
     margin: 1rem 0;
