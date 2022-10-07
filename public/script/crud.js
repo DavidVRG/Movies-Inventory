@@ -91,7 +91,7 @@ function remove() {
     })
 }
 
-/* UPDTE MOVIES */
+/* UPDATE MOVIES */
 function update(){
     const updateBtn = document.querySelectorAll('.update')
 

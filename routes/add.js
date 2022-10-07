@@ -49,9 +49,7 @@ router.post('/', upload, async (req, res) => {
 
         const newMovie = await movie.save()
 
-        res.render('add/index', {
-            message: 'New movie added!'
-        })
+        res.redirect('/')
     }catch (error) {
         res.render('add/index', {
             errorMessage: 'Input fields or the image field is empty!'
